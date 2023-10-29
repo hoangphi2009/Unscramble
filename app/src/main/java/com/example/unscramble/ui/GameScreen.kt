@@ -117,7 +117,7 @@ fun GameStatus(score: Int, modifier: Modifier = Modifier) {
         modifier = modifier
     ) {
         Text(
-            text = stringResource(R.string.score, score),
+            text = stringResource(R.string.your_score, score),
             style = typography.headlineMedium,
             modifier = Modifier.padding(8.dp)
         )
